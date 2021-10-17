@@ -39,7 +39,7 @@ function main(){
   git clone https://github.com/davatorium/rofi-themes.git
   sudo cp rofi-themes/User\ Themes/onedark.rasi /usr/share/rofi/themes
 
-  cp -r dotfiles/rofi ~/.config/
+  cp -r rofi/ ~/.config/
 
   yay -S lightdm-webkit-theme-aether --noconfirm
   
