@@ -42,3 +42,11 @@ function main(){
   sudo systemctl enable --now lightdm
 
 }
+
+if [ "$(id -u)" == "0" ]; then
+	echo -e "\n${red}[!] No hay que ser root para ejecutar la herramienta${end}"
+	echo
+	exit 1
+else
+  main
+fi
