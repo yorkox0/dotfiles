@@ -8,9 +8,9 @@ dunst &
 # xrandr --output DisplayPort-0 --mode 1920x1080 --rate 144.01
 $HOME/.xprofile
 $HOME/.config/polybar/launch.sh
-picom --config /home/yorkox/.config/bin/picom/picom.conf
-feh --bg-fill /home/yorkox/.wallpapers/macos.jpg
-play /home/yorkox/.sounds/startup.mp3
+picom --config ~/.config/bin/picom/picom.conf
+feh --bg-fill ~/.wallpapers/macos.jpg
+play ~/.sounds/startup.mp3
 # play /home/yorkox/.sounds/music.mp3
 
 #bspc monitor I II III IV V V1 VII VIII IX X
