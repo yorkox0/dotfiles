@@ -26,9 +26,9 @@ function main(){
   
   pip install pycritty
   
-  pycritty -s 16 -f Caskaydia -t dracula -o 0.8
+  /home/$USER/.local/bin/pycritty -s 16 -f Caskaydia -t dracula -o 0.8
 
-  pycritty -p 12 12
+  /home/$USER/.local/bin/pycritty -p 12 12
   
   echo "picom &" >> ~/.xprofile
   
@@ -41,7 +41,7 @@ function main(){
 
   cp -r dotfiles/rofi ~/.config/
 
-  yay -S lightdm-webkit2-greeter --noconfirm
+  yay -S lightdm-webkit-theme-aether --noconfirm
   
   sudo systemctl enable --now lightdm
 
