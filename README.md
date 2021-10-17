@@ -1,8 +1,3 @@
-# Resultado:
-
-![img](https://i.ibb.co/FYdgddk/img.png)
-
-
 # Script auto instalador!
 
 ```
@@ -11,3 +6,6 @@ cd dotfiles/
 chmod +x autoInstaller.sh
 ./autoInstaller.sh
 ```
+# Resultado:
+
+![img](https://i.ibb.co/FYdgddk/img.png)
