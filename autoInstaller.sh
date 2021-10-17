@@ -43,6 +43,10 @@ function main(){
 
   yay -S lightdm-webkit-theme-aether --noconfirm
   
+  chmod +x ~/.config/bspwm/bspwmrc
+  
+  chmod +x ~/.config/polybar/*
+  
   sudo systemctl enable --now lightdm
 
 }
