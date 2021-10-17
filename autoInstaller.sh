@@ -2,7 +2,7 @@
 
 function main(){
 
-  sudo pacman -Syyu bspwm sxhkd polybar papirus-icon-theme xorg ruby rubygems nodejs feh go picom npm firefox gcc qtile pcmanfm rofi neovim nano lightdm lightdm-webkit2-greeter alacritty base-devel make cmake fakeroot neofetch git python3 python2 python-pip alsa-utils binutils cbatticon volumeicon udiskie network-manager-applet lxappearance --noconfirm
+  sudo pacman -Syyu bspwm sxhkd papirus-icon-theme xorg ruby rubygems nodejs feh go picom npm firefox gcc qtile pcmanfm rofi neovim nano lightdm lightdm-webkit2-greeter alacritty base-devel make cmake fakeroot neofetch git python3 python2 python-pip alsa-utils binutils cbatticon volumeicon udiskie network-manager-applet lxappearance --noconfirm
   
   cp -r alacritty/ bin/ bspwm/ dunst/ fish/ gtk-2.0/ gtk-3.0/ nitrogen/ pcmanfm/ polybar/ rofi/ sxhkd/ /home/$USER/.config/
   
@@ -17,6 +17,8 @@ function main(){
   cd ..
   
   sudo rm -r yay/
+  
+  yay -S polybar --noconfirm
   
   yay -S nerd-fonts-complete --noconfirm
   
