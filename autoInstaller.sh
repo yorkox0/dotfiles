@@ -2,6 +2,6 @@
 
 function main(){
 
-
+  sudo pacman -S bspwm sxhkd polybar 
 
 }
