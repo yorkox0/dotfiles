@@ -26,6 +26,11 @@ function main(){
   
   echo "picom &" >> ~/.xprofile
   
+  cp -r .wallpapers /home/$USER/.wallpapers/
   
+  git clone https://github.com/davatorium/rofi-themes.git
+  sudo cp rofi-themes/User\ Themes/onedark.rasi /usr/share/rofi/themes
+
+  cp -r dotfiles/.config/rofi ~/.config
 
 }
