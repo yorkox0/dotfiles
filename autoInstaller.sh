@@ -37,7 +37,7 @@ function main(){
   git clone https://github.com/davatorium/rofi-themes.git
   sudo cp rofi-themes/User\ Themes/onedark.rasi /usr/share/rofi/themes
 
-  cp -r dotfiles/.config/rofi ~/.config
+  cp -r dotfiles/rofi ~/.config/
 
   yay -S lightdm-webkit2-greeter --noconfirm
   
