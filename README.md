@@ -8,4 +8,4 @@ chmod +x autoInstaller.sh
 ```
 # Resultado:
 
-![img](https://i.ibb.co/FYdgddk/img.png)
+![img](https://i.ibb.co/WGCLxGw/img.png)
