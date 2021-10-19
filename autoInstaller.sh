@@ -47,7 +47,7 @@ function main(){
   
   chmod +x ~/.config/polybar/*
   
-  sudo systemctl enable --now lightdm
+  #sudo systemctl enable --now lightdm
 
 }
 
