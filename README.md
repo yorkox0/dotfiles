@@ -1,4 +1,4 @@
-# Script auto instalador!
+# Script auto instalador:
 
 ```
 git clone https://github.com/yorkox0/dotfiles
