@@ -8,31 +8,31 @@ dunst &
 # xrandr --output DisplayPort-0 --mode 1920x1080 --rate 144.01
 $HOME/.xprofile
 $HOME/.config/polybar/launch.sh
-picom --config /home/yorkox/.config/bin/picom/picom.conf
-feh --bg-fill /home/yorkox/.wallpapers/wallpaper.png
-play /home/yorkox/.sounds/startup.mp3
+picom --config /home/$USER/.config/bin/picom/picom.conf
+feh --bg-fill /home/$USER/.wallpapers/wallpaper.png
+play /home/$USER/.sounds/startup.mp3
 # play /home/yorkox/.sounds/music.mp3
 
 #bspc monitor I II III IV V V1 VII VIII IX X
 
 bspc monitor -d I 
-sleep 0.2
+sleep 0.1
 bspc monitor -d I II
-sleep 0.2
+sleep 0.1
 bspc monitor -d I II III
-sleep 0.2
+sleep 0.1
 bspc monitor -d I II III IV
-sleep 0.2
+sleep 0.1
 bspc monitor -d I II III IV V
-sleep 0.2
+sleep 0.1
 bspc monitor -d I II III IV V VI
-sleep 0.2
+sleep 0.1
 bspc monitor -d I II III IV V VI VII
-sleep 0.2
+sleep 0.1
 bspc monitor -d I II III IV V VI VII VIII
-sleep 0.2
+sleep 0.1
 bspc monitor -d I II III IV V VI VII VIII IX
-sleep 0.2
+sleep 0.1
 bspc monitor -d I II III IV V VI VII VIII IX X
 
 bspc config border_width         0
