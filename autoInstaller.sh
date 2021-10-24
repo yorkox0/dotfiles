@@ -2,7 +2,7 @@
 
 function main(){
 
-  sudo pacman -Syyu bspwm sxhkd papirus-icon-theme xorg ruby rubygems nodejs feh go picom npm firefox gcc qtile pcmanfm rofi neovim nano lightdm lightdm-webkit2-greeter alacritty base-devel make cmake fakeroot neofetch git python3 python2 python-pip alsa-utils binutils cbatticon volumeicon udiskie network-manager-applet lxappearance --noconfirm
+  sudo pacman -Syyu bspwm sxhkd papirus-icon-theme xorg ruby rubygems nodejs feh go picom npm firefox gcc qtile pcmanfm rofi neovim nano lightdm lightdm-webkit2-greeter alacritty base-devel make cmake fakeroot neofetch git python3 python2 python-pip alsa-utils binutils cbatticon volumeicon udiskie network-manager-applet lxappearance grub-customizer --noconfirm
   
   mkdir /home/$USER/.config 2>/dev/null
   
@@ -46,6 +46,8 @@ function main(){
   chmod +x ~/.config/bspwm/bspwmrc
   
   chmod +x ~/.config/polybar/*
+  
+  yay -S arc-solid-gtk-theme --noconfirm
   
   #sudo systemctl enable --now lightdm
 
