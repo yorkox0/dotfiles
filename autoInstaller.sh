@@ -28,7 +28,7 @@ function main(){
   
   /home/$USER/.local/bin/pycritty -s 16 -f Caskaydia -t dracula -o 0.8
 
-  /home/$USER/.local/bin/pycritty -p 12 12
+  /home/$USER/.local/bin/pycritty -p 20 20
   
   echo "picom &" >> ~/.xprofile
   
