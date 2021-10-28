@@ -63,7 +63,7 @@ function main(){
   
   sudo rm -r dotfiles/
   
-  #sudo systemctl enable --now lightdm
+  sudo systemctl enable --now lightdm
 
 }
 
