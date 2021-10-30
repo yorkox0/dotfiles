@@ -45,4 +45,5 @@ cursor:
   style:
     shape: Beam
   vi_mode_style:
-    shape: Block
+    shape: Beam
+    #shape: Block
