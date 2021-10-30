@@ -41,3 +41,8 @@ window:
   padding:
     x: 12
     y: 12
+cursor:
+  style:
+    shape: Beam
+  vi_mode_style:
+    shape: Block
