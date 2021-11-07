@@ -270,7 +270,7 @@ type = custom/script
 interval = 1
 format-prefix = " "
 format = <label>
-exec = python3 /home/yorkox/.config/bin/spotify_status.py -f '{artist}: {song}' 2>/dev/null
+exec = python3 /home/$USER/.config/bin/spotify_status.py -f '{artist}: {song}' 2>/dev/null
 format-underline = #1db954
 ;control players (optional)
 click-left = playerctl --player=spotify play-pause
