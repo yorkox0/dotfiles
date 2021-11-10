@@ -9,9 +9,8 @@ dunst &
 $HOME/.xprofile
 $HOME/.config/polybar/launch.sh
 picom --config /home/$USER/.config/bin/picom/picom.conf
-feh --bg-fill /home/$USER/.wallpapers/wallpaper.png
+feh --bg-fill /home/$USER/.wallpapers/bosque.png
 play /home/$USER/.sounds/startup.mp3
-# play /home/yorkox/.sounds/music.mp3
 
 bspc monitor -d I II III IV V V1 VII VIII IX X
 
