@@ -8,7 +8,7 @@ dunst &
 # xrandr --output DisplayPort-0 --mode 1920x1080 --rate 144.01
 $HOME/.xprofile
 $HOME/.config/polybar/launch.sh
-picom --config /home/$USER/.config/bin/picom/picom.conf
+picom --experimental-backends
 feh --bg-fill /home/$USER/.wallpapers/bosque.png
 play /home/$USER/.sounds/startup.mp3
 
