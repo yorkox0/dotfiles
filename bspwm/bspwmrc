@@ -2,7 +2,6 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 wmname LG3D &
-pcmanfm -d &
 # discord &
 dunst &
 # xrandr --output DisplayPort-0 --mode 1920x1080 --rate 144.01
