@@ -108,6 +108,8 @@ function themes(){
 
     sudo pacman -S neovim 2>/dev/null
 
+    cp -r picom ~/.config
+
     sudo rm -r dotfiles/ 2>/dev/null
 
 }
