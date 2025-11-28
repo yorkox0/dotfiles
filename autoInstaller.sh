@@ -47,7 +47,7 @@ function dependences(){
 
     clear; echo -e "\n${green}[+] - ${blue}Instalando dependencias..."
 
-    sudo pacman -Syyu bspwm sxhkd papirus-icon-theme xorg ruby rubygems nodejs feh go picom npm gcc pcmanfm rofi neovim nano alacritty base-devel make cmake fakeroot neofetch git python3 python-pip alsa-utils binutils cbatticon volumeicon udiskie network-manager-applet lxappearance --noconfirm 
+    sudo pacman -Syyu bspwm sxhkd papirus-icon-theme xorg ruby rubygems nodejs feh go picom npm gcc pcmanfm rofi neovim nano alacritty base-devel make cmake fakeroot git python3 python-pip alsa-utils binutils cbatticon volumeicon udiskie network-manager-applet lxappearance --noconfirm 
 
     mkdir /home/$USER/.config 2>/dev/null
 
@@ -69,9 +69,6 @@ function dependences(){
 
 function build(){
     yay -S polybar --noconfirm
-
-    yay -S nerd-fonts-complete --noconfirm
-
 }
 
 function themes(){
